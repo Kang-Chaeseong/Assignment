@@ -13,7 +13,6 @@
 :root{
     --color-main-black: #3e3e3e;
     --color-orange-main: #fe9519;
-
 }
 
 .assignment_head{
@@ -82,13 +81,14 @@
 .assignment_bottom_listtwo,
 .assignment_bottom_listthree,
 .assignment_bottom_listfour{
+    padding-left: 20px;
     display: flex;
     width: 574px;
     height: 91px;
     border: 1px solid #d9d9d9;
     border-radius: 8px;
+    justify-content: space-around;
     align-items: center;
-    justify-content: space-evenly;
     margin: 10px auto;
 }
 
@@ -102,6 +102,15 @@
 }
 
 .bottom_list_two{
+    padding-left: 50px;
+    font-family: "Noto Sans KR";
+    font-weight: 500;
+    font-size: 12px;
+    color: black;
+}
+
+.bottom_list_two_add{
+    padding-left: 0px;
     font-family: "Noto Sans KR";
     font-weight: 500;
     font-size: 12px;
@@ -109,6 +118,7 @@
 }
 
 .bottom_list_three{
+    padding-right: 17.14px;
     font-family: "Noto Sans KR";
     font-weight: 500;
     font-size: 12px;
