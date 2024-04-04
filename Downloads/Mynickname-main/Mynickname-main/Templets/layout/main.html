@@ -2,13 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../../css/main.css">
     <title>Document</title>
+    <script src="../../JS/base.js"></script>
+    <link rel="stylesheet" href="../../css/main.css">
+
 </head>
 <body>
+<div nav-include-path="../../Templets/layout/navbar.html">
+    <script>LoadNAVBAR()</script>
+</div>
 <div class="assignment_head">
     <div class="assignment_head_first">
         <div class="assignment_give">
@@ -38,11 +42,13 @@
         <a class="bottom_list_three">3월 27일 월요일 19시까지</a>
     </div>
     <div class="assignment_bottom_listfour">
-        <a class="bottom_list_one">[과제: Java]</a>
+        <a class="bottom_list_one" href="Assignment.html">[과제: JAVA]</a>
         <a class="bottom_list_two">클래스 속성을 이용해서 은행계좌 만들기</a>
         <a class="bottom_list_three">3월 27일 월요일 19시까지</a>
     </div>
 </div>
-
+<div foot-include-path="../../Templets/layout/footbar.html">
+    <script>LoadFooterbar()</script>
+</div>
 </body>
 </html>

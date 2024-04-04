@@ -21,6 +21,7 @@
     width: 620px;
     align-items: center;
     margin: 0 auto;
+    margin-top: 20px;
 }
 
 .assignment_head_first{
@@ -93,6 +94,7 @@
 }
 
 .bottom_list_one{
+    text-decoration-line: none;
     align-items: center;
     justify-content: center;
     font-family: "Noto Sans KR";
