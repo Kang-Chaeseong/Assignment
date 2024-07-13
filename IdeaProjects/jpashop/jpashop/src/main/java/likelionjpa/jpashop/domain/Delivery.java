@@ -3,7 +3,6 @@ package likelionjpa.jpashop.domain;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
-import org.hibernate.query.Order;
 
 @Entity
 @Table(name = "Delivery")
@@ -11,14 +10,17 @@ import org.hibernate.query.Order;
 
 public class Delivery {
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "Delivery_id")
     private Long id;
 
     @Embedded
     private Address address;
-    private OrderStatus status;
 
-    @OneToOne(mappedBy = "order")
-    private order order;
+    @Enumerated(EnumType.STRING)
+    private DeliveryStatus status;
+
+    @OneToOne(fetch=FetchType.LAZY)
+    @JoinColumn(name = "order_id")
+    private Order order;
 }

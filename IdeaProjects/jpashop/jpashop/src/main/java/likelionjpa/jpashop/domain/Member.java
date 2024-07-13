@@ -3,7 +3,7 @@ package likelionjpa.jpashop.domain;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
-import org.hibernate.query.Order;
+//import org.hibernate.query.Order;
 import org.springframework.boot.autoconfigure.amqp.RabbitConnectionDetails;
 
 import java.util.ArrayList;

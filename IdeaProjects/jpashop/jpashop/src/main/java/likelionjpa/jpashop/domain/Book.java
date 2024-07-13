@@ -6,7 +6,7 @@ import lombok.Setter;
 
 @Entity
 @Getter @Setter
-public class Book extends item {
+public class Book extends Item {
     private Long id;
 
     private String author;
