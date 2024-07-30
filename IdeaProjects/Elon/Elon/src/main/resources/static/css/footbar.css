@@ -1,0 +1,63 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+@font-face {
+    font-family: 'GmarketSans';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --color-main-black: #3e3e3e;
+    --color-orange-main: #fe9519;
+}
+
+.footerbar {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-main-black);
+    width: 1440px;
+    height: 160px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.footer_about_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerbar_title {
+    font-family: "GmarketSansMedium";
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_menus {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.managers,
+.KAU_likelion,
+.Likelion_Univ {
+    font-family: "Noto Sans KR";
+    color: white;
+    font-weight: 400;
+    font-size: 12px;
+    margin-right: 55px;
+    margin-left:55px;
+    margin-top: 20px;
+    text-decoration: none;
+}

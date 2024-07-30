@@ -13,5 +13,4 @@ public class ElonApplication {
 		System.out.println("Elon"+ data);
 		SpringApplication.run(ElonApplication.class, args);
 	}
-
 }
